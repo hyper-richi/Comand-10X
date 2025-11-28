@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="page">
+    <header class="header">
+      <h6 class="header__subtitle">ENJOY YOUR STUDYING!</h6>
+      <h1 class="header__title">Our online courses</h1>
+      <div class="header__filter">
+        <div class="controls__tabs" id="sortSelect">
+          <button class="tabs__item tabs__item--active" data-filter="all">All</button>
+          <button class="tabs__item" data-filter="marketing">Marketing</button>
+          <button class="tabs__item" data-filter="management">Management</button>
+          <button class="tabs__item" data-filter="hrRecruting">HR</button>
+          <button class="tabs__item" data-filter="design">Design</button>
+          <button class="tabs__item" data-filter="development">Development</button>
+        </div>
+        <input type="text" class="controls__search" id="search" placeholder="Search course..." />
+      </div>
+    </header>
+
+    <section class="courses" id="courses">
+      <article class="course-card" data-category="marketing">
+        <img src="https://c.animaapp.com/feQCn904/img/image-8@2x.png" class="course-card__img" />
+        <div class="course-card__body">
+          <span class="badge badge--marketing">Marketing</span>
+          <h3 class="course-card__title">The Ultimate Google Ads Training Course</h3>
+          <div class="course-card__footer">
+            <span class="course-card__price">$100</span>
+            <img class="divider" src="https://c.animaapp.com/feQCn904/img/divider-8.svg" />
+            <span>by Jerome Bell</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" data-category="management">
+        <img src="https://c.animaapp.com/feQCn904/img/image-7@2x.png" class="course-card__img" />
+        <div class="course-card__body">
+          <span class="badge badge--management">Management</span>
+          <h3 class="course-card__title">Product Management Fundamentals</h3>
+          <div class="course-card__footer">
+            <span class="course-card__price">$480</span>
+            <img class="divider" src="https://c.animaapp.com/feQCn904/img/divider-8.svg" />
+            <span>by Marvin McKinney</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" data-category="hrRecruting">
+        <img src="https://c.animaapp.com/feQCn904/img/image-6@2x.png" class="course-card__img" />
+        <div class="course-card__body">
+          <span class="badge badge--hrRecruting">HR & Recruting</span>
+          <h3 class="course-card__title">HR Management and Analytics</h3>
+          <div class="course-card__footer">
+            <span class="course-card__price">$200</span>
+            <img class="divider" src="https://c.animaapp.com/feQCn904/img/divider-8.svg" />
+            <span>by Leslie Alexander Li</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" data-category="marketing">
+        <img src="https://c.animaapp.com/feQCn904/img/image-5@2x.png" class="course-card__img" />
+        <div class="course-card__body">
+          <span class="badge badge--marketing">Marketing</span>
+          <h3 class="course-card__title">Brand Management & PR Communications</h3>
+          <div class="course-card__footer">
+            <span class="course-card__price">$530</span>
+            <img class="divider" src="https://c.animaapp.com/feQCn904/img/divider-8.svg" />
+            <span>by Kristin Watson</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" data-category="design">
+        <img src="https://c.animaapp.com/feQCn904/img/image-4@2x.png" class="course-card__img" />
+        <div class="course-card__body">
+          <span class="badge badge--design">Design</span>
+          <h3 class="course-card__title">Graphic Design Basic</h3>
+          <div class="course-card__footer">
+            <span class="course-card__price">$500</span>
+            <img class="divider" src="https://c.animaapp.com/feQCn904/img/divider-8.svg" /> <span>by Guy Hawkins</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" data-category="management">
+        <img src="https://c.animaapp.com/feQCn904/img/image-3@2x.png" class="course-card__img" />
+        <div class="course-card__body">
+          <span class="badge badge--management">Management</span>
+          <h3 class="course-card__title">Business Development Management</h3>
+          <div class="course-card__footer">
+            <span class="course-card__price">$400</span>
+            <img class="divider" src="https://c.animaapp.com/feQCn904/img/divider-8.svg" /> <span>by Dianne Russell</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" data-category="development">
+        <img src="https://c.animaapp.com/feQCn904/img/image-1@2x.png" class="course-card__img" />
+        <div class="course-card__body">
+          <span class="badge badge--development">Development</span>
+          <h3 class="course-card__title">Highload Software Architecture</h3>
+          <div class="course-card__footer">
+            <span class="course-card__price">$600</span>
+            <img class="divider" src="https://c.animaapp.com/feQCn904/img/divider-8.svg" /> <span>by Brooklyn Simmons</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" data-category="hrRecruting">
+        <img src="https://c.animaapp.com/feQCn904/img/image-2@2x.png" class="course-card__img" />
+        <div class="course-card__body">
+          <span class="badge badge--hrRecruting">HR & Recruting</span>
+          <h3 class="course-card__title">Human Resources – Selection and Recruitment</h3>
+          <div class="course-card__footer">
+            <span class="course-card__price">$150</span>
+            <img class="divider" src="https://c.animaapp.com/feQCn904/img/divider-8.svg" /> <span>by Kathryn Murphy</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" data-category="design">
+        <img src="https://c.animaapp.com/feQCn904/img/image@2x.png" class="course-card__img" />
+        <div class="course-card__body">
+          <span class="badge badge--design">Design</span>
+          <h3 class="course-card__title">User Experience. Human-centered Design</h3>
+          <div class="course-card__footer">
+            <span class="course-card__price">$240</span>
+            <img class="divider" src="https://c.animaapp.com/feQCn904/img/divider-8.svg" /> <span>by Cody Fisher</span>
+          </div>
+        </div>
+      </article>
+    </section>
+    <div class="load-more">
+      <img class="load-more__icon" src="https://c.animaapp.com/feQCn904/img/convert.svg" />
+      <div class="load-more__text">Load more</div>
+    </div>
+  </body>
+</html>
